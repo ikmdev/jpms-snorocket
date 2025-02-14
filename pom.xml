@@ -39,11 +39,18 @@
         </license>
     </licenses>
 
-    <dependencies>
+    <dependencyManagement>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>ontology-model</artifactId>
             <version>${ontology-core.version}</version>
+        </dependency>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>ontology-model</artifactId>
         </dependency>
     </dependencies>
 
