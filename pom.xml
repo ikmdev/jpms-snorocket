@@ -40,11 +40,13 @@
     </licenses>
 
     <dependencyManagement>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>ontology-model</artifactId>
-            <version>${ontology-core.version}</version>
-        </dependency>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>ontology-model</artifactId>
+                <version>${ontology-core.version}</version>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
 
     <dependencies>
