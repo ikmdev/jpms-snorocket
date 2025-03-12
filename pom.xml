@@ -13,7 +13,7 @@
 
     <groupId>dev.ikm.jpms</groupId>
     <artifactId>snorocket</artifactId>
-    <version>4.0.1-r6-SNAPSHOT</version>
+    <version>4.0.1-r6-AR-299_Java23-SNAPSHOT</version>
     <name>Snorocket</name>
     <description>
         Builds the httpmime.  Requires the ontology-model be built first and be excluded
