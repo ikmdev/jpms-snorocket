@@ -14,7 +14,7 @@
     <groupId>dev.ikm.jpms</groupId>
     <artifactId>snorocket</artifactId>
     <name>Snorocket</name>
-    <version>4.0.1-r6</version>
+    <version>4.0.1-r7-SNAPSHOT</version>
     <description>
         Builds the httpmime.  Requires the ontology-model be built first and be excluded
         from any other poms requiring it.
