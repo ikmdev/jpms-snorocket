@@ -13,8 +13,8 @@
 
     <groupId>dev.ikm.jpms</groupId>
     <artifactId>snorocket</artifactId>
-    <version>4.0.1-r6-SNAPSHOT</version>
     <name>Snorocket</name>
+    <version>4.0.1-r6-SNAPSHOT</version>
     <description>
         Builds the httpmime.  Requires the ontology-model be built first and be excluded
         from any other poms requiring it.
@@ -23,10 +23,10 @@
     <properties>
         <!-- change release here-->
         <core.artifact.version>4.0.1</core.artifact.version>
-        <core.artifact.release>r5</core.artifact.release>
+        <core.artifact.release>r6</core.artifact.release>
 
         <!-- transitive dependency versions -->
-        <ontology-core.version>4.1.0-r8</ontology-core.version>
+        <ontology-core.version>4.1.0-r9</ontology-core.version>
 
         <maven.moditect.plugin>1.2.2.Final</maven.moditect.plugin>
     </properties>
